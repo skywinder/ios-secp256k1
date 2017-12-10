@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ios-secp256k1_Example' do
+  pod 'ios-secp256k1', :path => '../'
+
+  target 'ios-secp256k1_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
