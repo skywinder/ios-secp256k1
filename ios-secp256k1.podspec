@@ -25,4 +25,6 @@ This library is a work in progress and is being used to research best practices.
   s.source_files = 'ios-secp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h'
   s.ios.vendored_frameworks = 'ios-secp256k1/framework/secp256k1.framework'
   s.public_header_files = 'ios-secp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h'
+  s.module_map = 'ios-secp256k1/secp256k1.modulemap'
+
 end
