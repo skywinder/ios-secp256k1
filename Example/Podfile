@@ -1,5 +1,5 @@
 use_frameworks!
-
+platform :ios
 target 'ios-secp256k1_Example' do
   pod 'ios-secp256k1', :path => '../'
 
