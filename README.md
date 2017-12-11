@@ -22,7 +22,7 @@ pod 'ios-secp256k1'
 
 ## Author
 
-skywinder, sky4winder@gmail.com
+@skywinder, sky4winder@gmail.com
 
 ## License
 
