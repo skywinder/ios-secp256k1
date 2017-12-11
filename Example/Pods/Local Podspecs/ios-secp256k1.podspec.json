@@ -1,0 +1,22 @@
+{
+  "name": "ios-secp256k1",
+  "version": "0.1.0",
+  "summary": "A short description of ios-secp256k1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/skywinder/ios-secp256k1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "skywinder": "sky4winder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/skywinder/ios-secp256k1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ios-secp256k1/Classes/**/*"
+}

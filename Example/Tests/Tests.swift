@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import ios-secp256k1
+//import ios-secp256k1
 
 class Tests: XCTestCase {
     
