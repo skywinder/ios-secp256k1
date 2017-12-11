@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ios-secp256k1'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ios-secp256k1.'
+  s.summary          = 'A iOS secp256k1 implementation framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ios-secp256k1/Classes/**/*'
-  
+  # s.source_files = 'ios-secp256k1/Classes/**/*'
+  s.source_files = 'ios-secp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h'
+
+  s.ios.vendored_frameworks = 'ios-secp256k1/framework/secp256k1.framework'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'ios-secp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h'
+
   # s.resource_bundles = {
   #   'ios-secp256k1' => ['ios-secp256k1/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
